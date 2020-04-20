@@ -11,19 +11,19 @@
 			{
 				var temperature=10;
 				console.log(temperature);
-				alert(temperature+" degrés Celsius");
-			}
-            function press()
-			{
-				var pression=8;
-				console.log(pression);
-				alert(pression);
+				alert(temperature + "°C");
 			}
 			function hum()
 			{
 				var humidite=85;
 				console.log(humidite);
-				alert(humidite);
+				alert(humidite + "%");
+			}
+			function press()
+			{
+				var pression=8;
+				console.log(pression);
+				alert(pression + "Pa");
 			}
     </script>
 <style>
@@ -57,8 +57,8 @@
 </div> 
 <div class="row">
    <div class="column" style="background-color:#aaa;"><input type="image" class="icone" src="images/thermo.jpg" width="80px" onClick="temp()"/></div>
-   <div class="column" style="background-color:#bbb;"><input type="image" class="icone" src="images/humidite.jpg" width="80px" onClick="press()"/></div>
-   <div class="column" style="background-color:#ccc;"><input type="image" class="icone" src="images/barometre.jpg" width="80px" onClick="hum()"/></div>
+   <div class="column" style="background-color:#bbb;"><input type="image" class="icone" src="images/humidite.jpg" width="80px" onClick="hum()"/></div>
+   <div class="column" style="background-color:#ccc;"><input type="image" class="icone" src="images/barometre.jpg" width="80px" onClick="press()"/></div>
 </div>
 
 <div class="footer">
